@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+.row .col-4 {
+  text-align: right;
+}
+.row .col-4 i {
+  margin-right: 30px;
+  padding-top: 15px;
+}
+.row .col-4 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.row .col-4 ul li {
+  list-style: none;
+}
+
+.container-2 .banner {
+  position: relative;
+}
+.container-2 .banner img {
+  object-fit: cover;
+  width: 100%;
+}
+.container-2 .banner .title {
+  margin: auto;
+  position: absolute;
+  top: calc(50% - 52px);
+  left: calc(50% - 62px);
+}
+.container-2 .banner .title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+}
+.container-2 .banner .title p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-2 .banner .title p span {
+  font-weight: 300;
+  margin-left: 10px;
+}
+.container-2 .slick {
+  padding: 30px 0;
+  background-color: #F9F1E7;
+  margin-bottom: 50px;
+}
+.container-2 .slick .row {
+  margin: 0 30px;
+}
+.container-2 .slick .row .col-7 {
+  text-align: right;
+}
+.container-2 .slick .row .col-7 h1 a {
+  background-color: #fff;
+  color: #9F9F9F;
+  padding: 12px 18px;
+  border: none;
+  margin: 0 20px;
+}
+.container-2 .slick .row .col-5 i {
+  margin-right: 25px;
+}
+.container-2 .slick .row .col-5 i span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.row .col-3 .card span {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  padding: 10px 4px;
+  border: none;
+  border-radius: 50px;
+  background-color: #E97171;
+  color: #fff;
+}
+
+.button {
+  text-align: center;
+  padding-top: 40px;
+}
+.button a {
+  padding: 15px 27px;
+  background-color: #F9F1E7;
+  color: #000000;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.button a:first-child {
+  background-color: #B88E2F;
+  color: #fff;
+}
+
+.container-3 {
+  background-color: #FAF3EA;
+  padding: 30px;
+  margin-top: 30px;
+}
+.container-3 .final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-3 .final .cold {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.container-3 .final .cold image img {
+  object-fit: cover;
+}
+.container-3 .final .cold .title-2 h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.container-3 .final .cold .title-2 h1 span {
+  color: #898989;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+.footer .left h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 10px;
+}
+.footer .center ul {
+  padding-left: 0px;
+}
+.footer .center ul li {
+  list-style: none;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.footer .center-2 ul {
+  padding-left: 0px;
+}
+.footer .center-2 ul li {
+  list-style: none;
+  margin-top: 11px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.footer .right .cold {
+  margin-bottom: 78px;
+}
+.footer .right .cold span {
+  text-decoration: underline;
+}
+.footer .right .cold button {
+  border: none;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=style2.css.map */
