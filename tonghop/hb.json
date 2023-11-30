@@ -1,0 +1,39 @@
+{
+  "sanpham": [
+    {
+      "image": "PT01.jpg",
+      "catelory": "1",
+      "name": "polo-white",
+      "price": "100",
+      "id": 1
+    },
+    {
+      "image": "tải xuống.jpg",
+      "catelory": "2",
+      "name": "polo-black",
+      "price": "200",
+      "id": 2
+    },
+    {
+      "image": "polo2.jpg",
+      "catelory": "1",
+      "name": "polo-black",
+      "price": "200",
+      "id": 3
+    },
+    {
+      "image": "polo15.jpg",
+      "catelory": "1",
+      "name": "polo-black",
+      "price": "200",
+      "id": 4
+    },
+    {
+      "image": "polo14.webp",
+      "catelory": "1",
+      "name": "polo-black",
+      "price": "200",
+      "id": 5
+    }
+  ]
+}
